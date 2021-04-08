@@ -1,0 +1,352 @@
+@charset "utf-8";
+/* CSS Document */
+#contenedor{
+				width:800px;
+				margin:0 auto;
+			}
+			
+#cabezera{
+				width:800px;
+				height:50px;
+				background-color:rgb(57,66,145);
+				margin:0 auto;				
+			}
+		
+#contenido {
+				clear:both;
+			}
+						
+#contenido #menu{
+				width:165px;				
+				float:left;
+			}			
+#contenido #informacion{
+				width:635px;
+				float:left;		
+			}			
+#contenido #anuncios_productos{
+				width:165px;
+				float:left;	
+
+			}						
+			
+#piedepagina{
+				clear:both;
+			}
+			
+#cuadropie{
+			border-style:solid;
+			border-color:#FFFFFF;
+			border-width:1px;
+			background-color:#0a1790;
+		}
+/*********************CUADRO***********************/
+#anuncioscuadro{
+			border-style:solid;
+			border-color:#000000;
+			border-width:2px;
+			background-color:rgb(0,0,0);
+
+			}
+#anuncioscuadro #titulo
+		{
+			border-style:solid;
+			border-color:#ffffff;
+			border-width:1px;
+			background-color:rgb(57,66,145);
+			height:25px;
+			font-size:12px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-weight:700;	
+			text-align:center;
+			color:#ffffff;
+			padding-top:5px;
+									
+		}
+#anuncioscuadro #anuncios_contenido
+		{		
+			background-color:rgb(12,20,145);			
+			font-size:15px;
+			color:#000000;									
+			padding-left:0px;
+			padding-right:0px;
+			margin-top:0px;
+			height: 800px;
+		}		
+		
+#informacioncuadro{
+			border-style:solid;
+			border-color:#663300;
+			border-width:1px;
+			background-color:#eeeeee;
+			margin-top:5px;
+			margin-left:5px;
+			margin-right:5px;
+			padding-left:5px;
+			padding-right:5px;
+		
+			}		
+/*estilos de tags*/
+h1{
+	color:#000000;
+	font-size:18px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:700;	
+	text-align:center;
+}	
+h2{
+	color:#000000;
+	font-size:13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:700;	
+	text-align:center;
+}		
+h5{
+	color:#000000;
+	font-size:14px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:700;	
+}		
+p{
+	color:#000000;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;	
+	text-align:justify;
+}		
+a{
+	color:#0000ff;	
+}
+/*clases*/
+.centrar{
+		color:#FFFFFF;
+		font-size:8px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-weight:normal;	
+		text-align:center;			
+		}
+/*el centrar 1 es solo para asociasods */
+.centrar1{
+		color:#000000;
+		font-size:9px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-weight:normal;	
+		text-align:center;			
+		}
+.normal{
+		color:#000000;
+		font-size:10px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-weight:normal;	
+		}		
+/*****************************************/
+.centro{
+text-align:center;
+		}		
+		
+/*****ESTILOS PARA ASOCIADOS *****/
+
+#asociacioncuadrogeneral {
+				width:635px;				
+			}
+						
+#asociacioncuadrogeneral #cuadro1 {
+				width:210px;
+				float:left;
+			}			
+#asociacioncuadrogeneral #cuadro2 {
+				width:210px;
+				float:left;
+			}			
+#asociacioncuadrogeneral #cuadro3 {
+				width:210px;
+				float:left;
+			}			
+
+
+#asociadoscuadro{
+			border-style:solid;
+			border-color:#663300;
+			border-width:2px;
+			margin-left:10px;					
+			width:200px;	
+			}
+#asociadoscuadro #tituloa
+		{
+			border-style:solid;
+			border-color:#ffffff;
+			border-width:1px;
+			background-color:#663300;			
+			height:30px;
+			
+			font-size:11px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-weight:600;	
+			text-align:center;
+			color:#FFFFFF;
+									
+		}
+#asociadoscuadro #anuncios_contenidoa
+		{		
+			background-color:#FFFFFF;			
+			font-size:15px;
+			color:#000000;			
+			padding-left:3px;
+			padding-right:3px;
+		}		
+/********************menu*************************/
+
+#menucuadro{
+				border-color:#00FF66;
+				border-width:1px;
+			}
+#menurelleno
+			{
+				background-color:#0a1790;
+				height:15px;
+			}	
+			
+#menurelleno1
+			{
+	background-image:url(../imagenes/menurelleno1.png);
+				height:30px;
+			}	
+/******************menu*******************************/
+
+ul.estilomenu
+		{
+				width: 160px;		
+				list-style: none;
+				margin: 0;
+				padding:0;
+				color:#FFFFFF;
+				font-size:11px;
+				font-family:Verdana, Arial, Helvetica, sans-serif;
+				font-weight:normal;	
+				text-align:center;
+		}		
+
+ul.estilomenu li {
+	background-color:rgb(57,66,145);
+	border-style: solid;
+    height:30px;
+}
+
+ul.estilomenu li a {
+padding:  6px 0 .2em .5em;
+display:block;
+text-decoration: none;
+color: #ffffff;
+}
+		
+#anuncioscuadro #anuncios_contenido1
+		{		
+			background-color:rgb(57,66,145);
+			background-repeat:repeat-y;
+			height:210px;									
+		}		
+/*************************estilos informacion general index.php**************/		
+#informacioncuadro2{
+			border-style:solid;
+			border-color:#ffffff;
+			border-width:2px;
+			background-color:#eee;
+			padding-left:5px;
+			padding-right:5px;
+		
+			}		
+
+
+#anuncioscuadro2{
+			border-style:solid;
+			border-color:#000000;
+			border-width:2px;
+			background-color:#ffffff;
+			}
+#anuncioscuadro2 #titulo2
+		{
+			border-style:solid;
+			border-color:#ffffff;
+			border-width:1px;
+			background-color:rgb(57,66,145);			
+			height:25px;
+			font-size:12px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-weight:700;	
+			text-align:center;
+			color:#FFFFFF;
+			padding-top:5px;
+									
+		}
+#anuncioscuadro2 #anuncios_contenido2
+		{		
+			background-color:#FFFFFF;			
+			font-size:15px;
+			color:#000000;			
+			padding-left:3px;
+			padding-right:3px;
+			padding-top:3px;
+			height:918px;
+		}				
+
+/*****************forulario*********************/
+
+#anuncioscuadro3{
+			border-style:solid;
+			border-color:#663300;
+			border-width:2px;
+			width:300px;
+			}
+#anuncioscuadro3 #titulo3
+		{
+			border-style:solid;
+			border-color:#ffffff;
+			border-width:1px;
+			background-color:#010c99;			
+			height:25px;
+			font-size:12px;
+			font-family:Verdana, Arial, Helvetica, sans-serif;
+			font-weight:700;	
+			text-align:center;
+			color:#FFFFFF;
+			padding-top:5px;
+									
+		}
+#anuncioscuadro3 #anuncios_contenido3
+		{		
+			background-color:#FFFFFF;			
+			font-size:15px;
+			color:#000000;			
+			padding-left:3px;
+			padding-right:3px;
+			padding-top:3px;
+		}	
+
+table.formulario{
+	color:#000;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;	
+	text-align:justify;
+				}
+
+.valor {
+	border-color:#000;
+	color:#000;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;	
+	text-align:justify;
+						}
+input.valorb {
+
+	color:#000000;
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;	
+	text-align:justify;
+						}				
+				
+				
+				
+				
